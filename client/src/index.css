@@ -1,0 +1,54 @@
+@import './fonts/Karla/stylesheet.css';
+@import './fonts/Montserrat/stylesheet.css';
+@import './fonts/Fontello/stylesheet.css';
+
+:root {
+    --family-title: 'Karla', sans-serif;
+    --family-text: 'Montserrat', sans-serif;
+
+    --size-title-big: calc(var(--size-title) * 1.3);
+    --size-title: min(max(3.7vmin, 28px), 40px);
+    --size-title-small: calc(var(--size-title) * 0.7);
+
+    --size-text-big: calc(var(--size-text) * 1.2);
+    --size-text: min(max(1.85vmin, 16px), 20px);
+    --size-text-small: calc(var(--size-text) * 0.8);
+
+    --color-primary: #002d53;
+    --color-secondary: #77b4c4;
+    --color-accent: #dbe2ef;
+    --color-light: #f9f7f7;
+    --color-warning: #ef4836;
+
+    --border-radius: 10px;
+    --box-shadow: 8px 8px 10px #002d5320;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: inherit;
+    text-transform: inherit;
+    color: inherit;
+    list-style: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+body {
+    font-size: var(--size-text);
+    color: var(--color-primary);
+    list-style: none;
+    font-family: var(--family-text);
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1.4;
+
+    background-color: var(--color-light);
+}

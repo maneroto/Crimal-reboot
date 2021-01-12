@@ -1,0 +1,57 @@
+.btn {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    font-family: var(--family-title);
+    font-size: var(--size-text-big);
+    font-weight: 700;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+.btn:disabled {
+    display: none;
+}
+.btn:hover {
+    color: var(--color-primary);
+    background-color: transparent;
+}
+
+/* Secondary Button Start */
+.btn.secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.btn.secondary:hover {
+    color: var(--color-secondary);
+    background-color: transparent;
+}
+/* Secondary Button End */
+
+/* Light Button Start */
+.btn.light {
+    background-color: var(--color-light);
+    border-color: var(--color-light);
+    color: var(--color-primary);
+}
+.btn.light:hover {
+    color: var(--color-light);
+    background-color: transparent;
+}
+/* Light Button End */
+
+/* Warning Button Start */
+.btn.warning {
+    background-color: var(--color-warning);
+    border-color: var(--color-warning);
+}
+.btn.warning:hover {
+    color: var(--color-warning);
+    background-color: transparent;
+}
+/* Warning Button End */

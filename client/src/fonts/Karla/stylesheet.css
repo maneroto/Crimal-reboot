@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('./Bold/Karla-Bold.eot');
+    src: url('./Bold/Karla-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Bold/Karla-Bold.woff2') format('woff2'),
+        url('./Bold/Karla-Bold.woff') format('woff'),
+        url('./Bold/Karla-Bold.ttf') format('truetype'),
+        url('./Bold/Karla-Bold.svg#Karla-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('./Regular/Karla-Regular.eot');
+    src: url('./Regular/Karla-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Regular/Karla-Regular.woff2') format('woff2'),
+        url('./Regular/Karla-Regular.woff') format('woff'),
+        url('./Regular/Karla-Regular.ttf') format('truetype'),
+        url('./Regular/Karla-Regular.svg#Karla-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
